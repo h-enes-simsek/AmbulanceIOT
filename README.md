@@ -1,2 +1,2 @@
 # AmbulanceIOT
-Android işlemtimli sistemli telefonlar için Ambulans-hasta takip IoT uygulması. (Ubidots.com serverı kullanılıyor.)
+Android işlemtimli sistemli telefonlar için Ambulans-hasta takip IoT uygulaması. (Ubidots.com serverı kullanılıyor.)
