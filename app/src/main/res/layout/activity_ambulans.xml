@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kalpresmi1"
+    tools:context="com.example.AmbulanceIOT.Ambulans">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <fragment
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/google_map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="410dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/startService"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:alpha="0.9"
+            android:background="@drawable/butonbackground"
+            android:onClick="startServiceButton"
+            android:text="TAKİBİ BAŞLAT"
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/stopService"
+            android:background="@drawable/butonbackground"
+            android:textColor="@color/white"
+
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:onClick="stopServiceButton"
+            android:text="TAKİBİ DURDUR" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="460dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:id="@+id/textViewGelen"
+                        android:layout_height="wrap_content"
+                        android:layout_width="210dp"
+                        android:text="Konum Verileri [degree]" />
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:paddingLeft="20dp"
+                        android:layout_width="180dp"
+                        android:id="@+id/textViewGPS"
+                        android:layout_height="wrap_content"
+                        android:text="0"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:id="@+id/textView2"
+                        android:layout_height="wrap_content"
+                        android:layout_width="210dp"
+                        android:text="Aydınlanma Şiddeti [lux]" />
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:paddingLeft="20dp"
+                        android:layout_width="180dp"
+                        android:id="@+id/textViewLight"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:layout_width="210dp"
+                        android:id="@+id/textView"
+                        android:layout_height="wrap_content"
+                        android:text="İvmeölçer Verileri [m/s^2]" />
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:paddingLeft="20dp"
+                        android:layout_width="180dp"
+                        android:id="@+id/textViewIvme"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:layout_width="210dp"
+                        android:id="@+id/textView3"
+                        android:layout_height="wrap_content"
+                        android:text="Jiroskop Verileri [rad/s]" />
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:paddingLeft="20dp"
+                        android:layout_width="180dp"
+                        android:id="@+id/textViewGyro"
+                        android:layout_height="wrap_content"
+                        android:text="0"/>
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

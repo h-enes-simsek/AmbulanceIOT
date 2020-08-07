@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kalpresmi1"
+    tools:context="com.example.AmbulanceIOT.Anasayfa">
+
+
+    <TextView
+        android:textStyle="italic"
+        android:text="HOŞGELDİNİZ"
+        android:gravity="center"
+        android:layout_marginTop="110dp"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textStyle="italic"
+        android:id="@+id/secimiziyapin"
+        android:text="Lütfen Seçiminizi Yapınız."
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="230dp"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <Button
+        android:background="@drawable/btn2bg"
+        android:id="@+id/btn_ambulans"
+        android:text="ambulans"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/secimiziyapin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:background="@drawable/btn2bg"
+        android:id="@+id/btn_yarali"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_ambulans"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:text="hasta" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="700dp"
+        android:background="#000000"
+        android:layout_width="500dp"
+        android:layout_height="0.57dp"/>
+
+    <TextView
+        android:text="  Tüm hakları saklıdır."
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="705dp"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</RelativeLayout>

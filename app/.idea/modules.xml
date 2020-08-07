@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1752312596/AmbulanceIOT.iml" filepath="$PROJECT_DIR$/.idea/modules/1752312596/AmbulanceIOT.iml" group="AmbulanceIOT" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1129768115/CurrentLocation.iml" filepath="$PROJECT_DIR$/.idea/modules/-1129768115/CurrentLocation.iml" group="CurrentLocation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="AmbulanceIOT/app" />
+    </modules>
+  </component>
+</project>
