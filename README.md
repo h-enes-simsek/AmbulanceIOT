@@ -1,5 +1,5 @@
 # AmbulanceIOT
-Android işlemtimli sistemli telefonlar için ambulans-hasta takip IoT uygulaması. 
+HAVELSAN'da yaptığım online staj sürecinde takım arkadaşımla birlikte yaptığımız, Android telefonlar için hasta ve ambulansın birbiri ile haberleşmesini sağlamak amacıyla geliştirilmiş, IoT teknolojilerini kullanan prototip bir Android uygulaması. 
 
 
 Uygulama hangi amaçla geliştirildi?
@@ -14,6 +14,6 @@ Google Haritalar API, haritalar için kullanıldı.
 
 Projenin dezantajları neler?
 
--Yaptığım bir staj süresince IoT uygulaması olarak gerçekleştirilmesi istendiği için MQTT protokolünü kullandım, ancak daha fazla ambulans ve daha fazla hastayı eşleştiren bir sistem kurmak istenirse PHP, NodeJS gibi daha gelişmiş serverların kullanılması gerekiyor.
+-Staj süresince IoT uygulaması olarak gerçekleştirilmesi istendiği için MQTT protokolünü kullanıldı, ancak daha fazla ambulans ve daha fazla hastayı eşleştiren bir sistem kurmak istenirse gelişmiş bir web server üzerinden iletişim kurmak gerekirdi.
 
 -Ubidots.com serverları web arayüzü, büyük çaplı bir operasyonu yönetmek için yeterli değil. Yeni bir arayüz geliştirilmesi gerekiyor. Örneğin daha öncelikli bir hasta ortaya çıktığında, yolda olan ambulansa durumu bildirip öncelikle hastaya yönlendirmek için.
