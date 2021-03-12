@@ -17,3 +17,10 @@ Projenin dezantajları neler?
 -Staj süresince IoT uygulaması olarak gerçekleştirilmesi istendiği için MQTT protokolünü kullanıldı, ancak daha fazla ambulans ve daha fazla hastayı eşleştiren bir sistem kurmak istenirse gelişmiş bir web server üzerinden iletişim kurmak gerekirdi.
 
 -Ubidots.com serverları web arayüzü, büyük çaplı bir operasyonu yönetmek için yeterli değil. Yeni bir arayüz geliştirilmesi gerekiyor. Örneğin daha öncelikli bir hasta ortaya çıktığında, yolda olan ambulansa durumu bildirip öncelikle hastaya yönlendirmek için.
+
+#Uygulamadan görseller
+![Alt text](anasayfa.jpeg?raw=true "Anasayfa")
+
+![Alt text](hasta.jpeg?raw=true "Anasayfa")
+
+![Alt text](ambulans.jpeg?raw=true "Anasayfa")
