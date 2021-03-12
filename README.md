@@ -19,9 +19,8 @@ Projenin dezantajları neler?
 -Ubidots.com serverları web arayüzü, büyük çaplı bir operasyonu yönetmek için yeterli değil. Yeni bir arayüz geliştirilmesi gerekiyor. Örneğin daha öncelikli bir hasta ortaya çıktığında, yolda olan ambulansa durumu bildirip öncelikle hastaya yönlendirmek için.
 
 #Uygulamadan görseller
-
-<img src="anasayfa.jpeg" width="400" height="800">
-
-<img src="hasta.jpeg" width="400" height="800">
-
-<img src="ambulans.jpeg" width="400" height="800">
+<p float="left">
+<img src="anasayfa.jpeg" width="200" height="400">
+<img src="hasta.jpeg" width="200" height="400">
+<img src="ambulans.jpeg" width="200" height="400">
+</p>
