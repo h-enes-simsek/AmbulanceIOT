@@ -24,3 +24,6 @@ Projenin dezantajları neler?
 <img src="hasta.jpeg" width="200" height="400">
 <img src="ambulans.jpeg" width="200" height="400">
 </p>
+
+<img src="UbidontsInterface.png" width="800" height="400">
+
