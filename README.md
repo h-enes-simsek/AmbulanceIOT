@@ -1,5 +1,5 @@
 # AmbulanceIOT
-HAVELSAN'da yaptığım online staj sürecinde takım arkadaşımla birlikte yaptığımız, Android telefonlar için hasta ve ambulansın birbiri ile haberleşmesini sağlamak amacıyla geliştirilmiş, IoT teknolojilerini kullanan prototip bir Android uygulaması. 
+HAVELSAN'da yaptığım online staj sürecinde takım arkadaşımla birlikte geliştirdiğimiz, Android telefonlar için hasta ve ambulansın birbiri ile haberleşmesini sağlamak amacıyla tasarlanmış, IoT teknolojilerini kullanan prototip bir Android uygulaması. 
 
 
 Uygulama hangi amaçla geliştirildi?
