@@ -17,7 +17,7 @@ Google Haritalar, haritalar için kullanıldı.
 
 -Ubidots.com serverları web arayüzü, büyük çaplı bir operasyonu yönetmek için yeterli değil. Yeni bir arayüz geliştirilmesi gerekiyor. Örneğin daha öncelikli bir hasta ortaya çıktığında, yolda olan ambulansa durumu bildirip öncelikle hastaya yönlendirmek için.
 
-#Uygulamadan görseller
+# Uygulamadan görseller
 <p float="left">
 <img src="imgs/anasayfa.jpeg" width="200" height="400">
 <img src="imgs/hasta.jpeg" width="200" height="400">
